@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  word: 
+  score: 
+  difficulty: 
+  minimum_length: 
+  maximum_length: 
+
+two:
+  word: 
+  score: 
+  difficulty: 
+  minimum_length: 
+  maximum_length: 

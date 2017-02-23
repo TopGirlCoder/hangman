@@ -1,0 +1,32 @@
+<div id="login-form">
+  <% if @user && @user.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@user.errors.count, "error") %> prohibited this user from logging in:
+      </h2>
+      <ul>
+        <% @user.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <!-- Sign In -->
+  <h2>Sign In</h2>
+  <%= form_for :session, url: sessions_path, remote: true do |f| %>
+    <div class="field">
+      <%= f.label :email %>
+      <%= f.email_field :email %>
+    </div>
+
+    <div class="field">
+      <%= f.label :password %>
+      <%= f.password_field :password %>
+    </div>
+  <div class="actions">
+    <%= f.submit "Sign In"%>
+  </div>
+
+  <% end %>
+</div>

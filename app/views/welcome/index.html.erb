@@ -1,0 +1,36 @@
+<div id="wrapper">
+  <div id="header">
+    <h1>Hangman</h1>
+    <!-- sign-out -->
+    <div class="right">
+      <div id="users-show"></div>
+      <div id="users-signout"></div>
+    </div>
+    <% if current_user %>
+        <!-- Show User -->
+        <%= render 'users/show', user: current_user %>
+        <!-- Sign Out -->
+        <%= render 'users/sign_out' %>
+    <% end %>
+
+  </div><!-- /header -->
+  
+  <div id="content">
+    <!-- game content -->
+  </div> <!-- /content -->
+
+  <div id="sidebar">
+    <!-- game-bar -->
+    <div id="game-form">
+      <!-- USER SIGNS IN || SIGNS UP -->
+        <% if !current_user %>
+          <!-- Sign In: sessions/form & Sign Up: users/form -->
+          <%= render 'users/new', user: @user %>
+        <% end %>
+    </div>
+  </div><!-- /sidebar -->
+  
+</div><!-- /wrapper -->
+
+
+
