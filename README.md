@@ -37,9 +37,13 @@ Hangman is a guessing game where one player thinks of a word, phrase or sentence
 
 ##Project Summary
 ● Engineered RESTful backend utilizing Ruby on Rails to enable players to solve word challenges and gain points and rankings on a leaderboard.
+
 ● Architected PostgreSQL schema with 5+ tables, using eager loading in Rails to optimize by ~50% DB queries.
+
 ● Reduced front-end codebase by over 80% by creating modular view components with JavaScript and Ruby.
+
 ● Minimized HTTP to RESTful backend by >90% through utilizing jQuery, AJAX and Ruby on Rails helpers.
+
 ● Integrated LinkedIn API into Rails server to enable word searches for players.
 
 ##Technologies Utilized
@@ -57,5 +61,7 @@ Ruby, Rails,JavaScript, jQuery, AJAX, Git, PostgreSQL, HTML5, CSS3
 ##Hangman Wireframe
 
 ###Hangman Storyboard
+(./app/assets/images/storyboard.png) 
 
 ###Hangman Schema Design Associations
+(./app/assets/images/schema1.png) 
