@@ -61,7 +61,7 @@ Ruby, Rails,JavaScript, jQuery, AJAX, Git, PostgreSQL, HTML5, CSS3
 ##Hangman Wireframe
 
 ###Hangman Storyboard
-(./app/assets/images/storyboard.png) 
+![storyboard](./app/assets/images/storyboard.png) 
 
 ###Hangman Schema Design Associations
-(./app/assets/images/schema1.png) 
+![schema](./app/assets/images/schema1.png) 
