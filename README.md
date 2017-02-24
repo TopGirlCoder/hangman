@@ -6,7 +6,7 @@ github.com/topgirlcoder/hangman
 ##Game Summary
 Hangman is a guessing game where one player thinks of a word, phrase or sentence and the other tries to guess it by suggesting letters, within a certain number of guesses.
 
-##Game Rules:
+##Game Rules
   
   - A player starts with 6 lives per word. 
   - To win a game, a player guesses the word before 6 lives are up. 
@@ -14,10 +14,9 @@ Hangman is a guessing game where one player thinks of a word, phrase or sentence
   - A player loses the game when 6 lives are lost and the word is not guessed.
   - A leaderboard is displayed to show user rankings.
 
-## To run:
+## To run
 ### 1. Download directory
-### 2. In the terminal, cd into directory
-### 3. Run: 
+### 2. In the terminal, cd into directory and run: 
 
 ```
 $ bundle install
@@ -35,12 +34,12 @@ $ bundle exec rake db:migrate
 $ bundle exec rails server
 ```
 
-### 7. Open a browser window, type into the url: 
+### 3. Open a browser window, type into the url: 
 ```
 localhost:3000
 ```
 
-### 8. Have fun playing the game!
+### 4. Have fun playing the game!
 
 ##Project Summary
 ● Engineered RESTful backend utilizing Ruby on Rails to enable players to solve word challenges and gain points and rankings on a leaderboard.
