@@ -57,6 +57,14 @@ localhost:3000
 Ruby, Rails,JavaScript, jQuery, AJAX, Git, PostgreSQL, HTML5, CSS3
 
 ##Hangman Wireframe
+Player Sign In or Sign Up
+![wireframe1](./app/assets/images/wireframe1.png)
+
+Player Choose Game Level
+![wireframe2](./app/assets/images/wireframe2.png)
+
+Player Play Game
+![wireframe3](./app/assets/images/wireframe3.png)
 
 ###Hangman Storyboard
 ![storyboard](./app/assets/images/storyboard.png) 
