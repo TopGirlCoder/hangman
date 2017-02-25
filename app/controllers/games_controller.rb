@@ -12,6 +12,8 @@ class GamesController < ApplicationController
   def create
     @user = User.find(params[:user_id])
     @game = @user.games.new(game_params)
+    @guess = @game.guesses.new
+    @game.word = GamesHelper.search_words(@game)
     respond_to do |format|
       if @game.save
         format.html { redirect_to @game, notice: 'Game was successfully created.' }

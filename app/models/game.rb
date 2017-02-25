@@ -2,7 +2,7 @@ class Game < ApplicationRecord
 	DEFAULT_MAX_LIVES = 6
 
 	belongs_to :user
-	# has_many :guesses, dependent: :destroy
+	has_many :guesses, dependent: :destroy
 	
 	after_update :update_total_score
 	

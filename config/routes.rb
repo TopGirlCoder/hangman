@@ -3,9 +3,10 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
   resources :users do
-   resources :games
-  end 
-  resources :guesses
+   resources :games do
+    resources :guesses
+   end 
+  end  
   resources :sessions
   resources :welcome
 end
